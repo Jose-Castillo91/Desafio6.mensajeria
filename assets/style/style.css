@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+}
+
+/* Barra de contactos */
+.barra-de-contactos {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  width: 25rem;
+  border-color: green;
+}
+
+/* Primer contacto individual  */
+.imagen-y-nombres-contactos{
+  display: flex;
+  gap: 1rem;
+}
+.contactos {
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px #e0e0e0;
+  height: 6rem;
+  flex: 0 0 auto;
+}
+
+.nombres-contactos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nombre-persona{
+margin: 0 0 0 0;
+  font-size: large;
+  font-weight: bold;
+  
+}
+.actividad{
+  font-size: small;
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+.div-imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagenes {
+  width: 3.5rem;
+  border-radius: 100%;
+}
+/* Resto de contactos */
+.contactos-2{
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px #e0e0e0;
+  height: 6rem;
+}
+.imagen-y-nombres-contactos-2{
+  display: flex;
+  gap: 0.5rem; 
+}
+.imagenes-2{
+  width: 4rem;
+  border-radius: 100%;
+}
+
+
+
+/* iconos */
+.iconos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size:  1.5rem;
+  color: gray;
+}
+/* Parte de "nuevo chat" */
+.zona-boton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+.botton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.boton{
+  background-color: #A491D2;
+  color: white;
+  border-radius: 0;
+  height: 3.5rem;
+  width: 14rem;
+}
+.boton:hover{
+  background-color: #CDC3E6;
+  color: #E8EBE4 ;
+}
+
+
+/* Seccion principal con la imagen y la frase */
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.imagen-corporativa {
+  width: 20rem;
+  height: auto;
+  margin: 1rem;
+}
+.comienza-el-nertworking {
+  font-size: 3.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.texto-secundario{
+  font-size: large;
+  text-align: center;
+  font-weight: 400;
+}
